@@ -5,12 +5,22 @@ using UnityEngine;
 public class Variables : MonoBehaviour
 {
     string nyame="Brytan";
+    int age = 18;
+    float height = 5.4f;
+    bool married = false;
+
+
+
+
 
 
     // Start is called before the first frame update
     void Start()
     {
-       Debug.Log(nyame); 
+       Debug.Log("first name; " + (nyame); 
+       Debug.Log("age; " + age);
+       Debug.Log("heaight; " + height);
+       Debug.Log("married; " + married);
     }
 
    
