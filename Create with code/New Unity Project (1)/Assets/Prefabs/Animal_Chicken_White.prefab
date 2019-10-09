@@ -171,6 +171,10 @@ GameObject:
   - component: {fileID: 1575166398734987337}
   - component: {fileID: 1575166398725639443}
   - component: {fileID: 1575166397943798867}
+  - component: {fileID: 9146539515521369139}
+  - component: {fileID: 1767490894}
+  - component: {fileID: 6830909455701960649}
+  - component: {fileID: 4903513652447954399}
   m_Layer: 0
   m_Name: Animal_Chicken_White
   m_TagString: Untagged
@@ -231,7 +235,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cde5896c2ced9214ca3d4781457a6a81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 0
+--- !u!65 &9146539515521369139
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575166398735083039}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1767490894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575166398735083039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8f52db850d5e64d91e4e07e5cbe2f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &6830909455701960649
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575166398735083039}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.81314, y: 21.61696, z: 23.26537}
+  m_Center: {x: -0.09342611, y: 5.8085213, z: -0.06302593}
+--- !u!114 &4903513652447954399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575166398735083039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60eedb126c0d5974f8e03fcbc9a9dd25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1575166398735234743
 GameObject:
   m_ObjectHideFlags: 0
@@ -752,6 +806,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1575166398735015599}
+  - component: {fileID: 4973492554788886462}
   m_Layer: 0
   m_Name: ChickenRig_SHJntGrp
   m_TagString: Untagged
@@ -774,6 +829,18 @@ Transform:
   m_Father: {fileID: 1575166398734987337}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4973492554788886462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575166398735278021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60eedb126c0d5974f8e03fcbc9a9dd25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1575166398735278155
 GameObject:
   m_ObjectHideFlags: 0
